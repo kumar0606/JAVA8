@@ -41,7 +41,7 @@ public String toString() {
 
 @Override
 public int compareTo(Laptop o) {
-	return this.getRam()-o.getRam();
+	return this.getName().compareToIgnoreCase(o.getName());
 }
 
 }
